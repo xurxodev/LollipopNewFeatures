@@ -1,7 +1,10 @@
-package com.xurxo.lollipopnewfeatures;
+package com.xurxo.lollipopnewfeatures.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
+
+import com.xurxo.lollipopnewfeatures.fragments.ItemsFragment;
+import com.xurxo.lollipopnewfeatures.R;
 
 public class ItemsActivity extends ActionBarActivity {
 
