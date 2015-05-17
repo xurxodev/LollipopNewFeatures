@@ -19,7 +19,7 @@ public class ItemDetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                             Bundle savedInstanceState) {
 
-        android.view.View rootView = inflater.inflate(R.layout.fragment_item_detail, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_item_detail, container, false);
         imageView = (ImageView)rootView.findViewById(R.id.detailItemImage);
 
         return rootView;
@@ -35,5 +35,7 @@ public class ItemDetailFragment extends Fragment {
         Picasso.with(imageView.getContext())
                 .load(item.getImageUrl())
                 .into(imageView);
+
+
     }
 }

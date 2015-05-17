@@ -3,4 +3,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
+    <!--TransitionNames-->
+    <string name="image_transition_name">ImageTransition</string>
 </resources>

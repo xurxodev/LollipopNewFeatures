@@ -1,4 +1,7 @@
 <resources>
+    <!-- item list-->
     <dimen name="image_width">300dp</dimen>
     <dimen name="image_height">300dp</dimen>
+
+
 </resources>
