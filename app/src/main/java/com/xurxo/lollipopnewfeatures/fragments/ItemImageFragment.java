@@ -12,14 +12,14 @@ import com.squareup.picasso.Picasso;
 import com.xurxo.lollipopnewfeatures.R;
 import com.xurxo.lollipopnewfeatures.models.Item;
 
-public class ItemDetailFragment extends Fragment {
+public class ItemImageFragment extends Fragment {
 
     ImageView imageView;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                             Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_item_detail, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_item_image, container, false);
         imageView = (ImageView)rootView.findViewById(R.id.detailItemImage);
 
         return rootView;
