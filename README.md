@@ -3,9 +3,9 @@ Sample application using new features in Lollipop
 
 ![](http://3.bp.blogspot.com/-hts8Qrbd1Fk/VVe01tKWzzI/AAAAAAAADBM/BIpTmQyNhxY/s320/Lollipop_Shared_Element_Transition.gif)
 
-Blog post with explications
+Blog posts with explications
 ---------------------------
-* [Lollipop new features: transiciones de elementos compartidos](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-recyclerview.html)
+* [Lollipop new features: RecyclerView](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-recyclerview.html)
 * [Lollipop new features: manejando el click en los elementos del RecyclerView](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-manejando-el-click-en-los-elementos-del-recyclerview.html)
 * [Lollipop new features: transiciones de elementos compartidos](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-transiciones-de-elementos-compartidos.html)
 
