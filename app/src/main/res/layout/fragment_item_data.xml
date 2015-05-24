@@ -14,7 +14,32 @@
         android:id="@+id/detailItemDescription"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.8"
+        android:layout_weight="0.5"
         android:padding="10dp"
         android:textSize="@dimen/abc_text_size_body_1_material" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:gravity="center">
+        <TextView android:id="@+id/vibrant_color"
+            android:layout_width="25dp"
+            android:layout_height="25dp" android:padding="1dp"/>
+        <TextView android:id="@+id/vibrant_dark_color"
+            android:layout_width="25dp"
+            android:layout_height="25dp" android:padding="1dp"/>
+        <TextView android:id="@+id/vibrant_light_color"
+            android:layout_width="25dp"
+            android:layout_height="25dp" android:padding="1dp"/>
+        <TextView android:id="@+id/muted_color"
+            android:layout_width="25dp"
+            android:layout_height="25dp" android:padding="1dp"/>
+        <TextView android:id="@+id/muted_dark_color"
+            android:layout_width="25dp"
+            android:layout_height="25dp" android:padding="1dp"/>
+        <TextView android:id="@+id/muted_light_color"
+            android:layout_width="25dp"
+            android:layout_height="25dp" android:padding="1dp"/>
+    </LinearLayout>
+
 </LinearLayout>

@@ -30,6 +30,13 @@
         <dex dex="C:\Workspace\Mobile\LollipopNewFeatures\app\build\intermediates\pre-dexed\debug\classes-40ae3f44b1ce33cc726d59a3a2266aa42702f8a3.jar" />
     </item>
     <item
+        jar="C:\Workspace\Mobile\LollipopNewFeatures\app\build\intermediates\exploded-aar\com.android.support\palette-v7\22.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="C:\Workspace\Mobile\LollipopNewFeatures\app\build\intermediates\pre-dexed\debug\classes-ad8dad32bb57560b0d9e846a44f3aee42f920a4a.jar" />
+    </item>
+    <item
         jar="C:\Users\xurxo\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
         jumboMode="false"
         revision="21.1.2"

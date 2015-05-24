@@ -5,14 +5,24 @@ android:orientation="vertical"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".ItemDetailActivity">
-<fragment android:name="com.xurxo.lollipopnewfeatures.fragments.ItemImageFragment"
-    android:id="@+id/list"
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/itemImageContainer"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"  android:id="@+id/itemDataContainer"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"  />
+<!--<fragment android:name="com.xurxo.lollipopnewfeatures.fragments.ItemImageFragment"
+    android:id="@+id/itemImageFragmentView"
     android:layout_weight="0.5"
     android:layout_width="match_parent"
     android:layout_height="0dp" />
 <fragment android:name="com.xurxo.lollipopnewfeatures.fragments.ItemDataFragment"
-    android:id="@+id/viewer"
+    android:id="@+id/itemDataFragmentView"
     android:layout_weight="0.5"
     android:layout_width="match_parent"
-    android:layout_height="0dp" />
+    android:layout_height="0dp" />-->
 </LinearLayout>
