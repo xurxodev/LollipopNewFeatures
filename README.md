@@ -1,13 +1,18 @@
 # LollipopNewFeatures
-Sample application using new features in Lollipop
+Sample application using new features in Lollipop:
+* RecyclerView
+* Handle onClick in RecyclerView
+* Shared Elements Transitions
+* Extract colors from bitmap with Palette
 
-![](http://3.bp.blogspot.com/-hts8Qrbd1Fk/VVe01tKWzzI/AAAAAAAADBM/BIpTmQyNhxY/s320/Lollipop_Shared_Element_Transition.gif)
+![](http://4.bp.blogspot.com/-bfhFmr1b6Lk/VWGJtJKEtMI/AAAAAAAADB0/FLocOoKDBE4/s320/Lollipop_Palette.gif)
 
 Blog posts with explications
 ---------------------------
 * [Lollipop new features: RecyclerView](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-recyclerview.html)
 * [Lollipop new features: manejando el click en los elementos del RecyclerView](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-manejando-el-click-en-los-elementos-del-recyclerview.html)
 * [Lollipop new features: transiciones de elementos compartidos](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-transiciones-de-elementos-compartidos.html)
+* [Lollipop new features: extrayendo colores de una imagen con Palette](http://xurxodeveloper.blogspot.com/2015/05/lollipop-new-features-extrayendo-colores-de-una-imagen-con-palette.html)
 
 License
 -------
