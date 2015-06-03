@@ -3,6 +3,8 @@
     <dimen name="image_width">180dp</dimen>
     <dimen name="image_height">180dp</dimen>
 
+    <dimen name="fab_size">55dp</dimen>
+
     <!-- item detail-->
 <!--    <dimen name="image_detail_width">360dp</dimen>
     <dimen name="image_detail_height">360dp</dimen>-->

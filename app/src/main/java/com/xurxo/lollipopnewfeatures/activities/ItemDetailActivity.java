@@ -1,15 +1,21 @@
 package com.xurxo.lollipopnewfeatures.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.graphics.Palette;
+import android.view.View;
 
 import com.xurxo.lollipopnewfeatures.R;
 import com.xurxo.lollipopnewfeatures.fragments.ItemDataFragment;
 import com.xurxo.lollipopnewfeatures.fragments.ItemImageFragment;
+import com.xurxo.lollipopnewfeatures.models.Item;
 
 public class ItemDetailActivity  extends ActionBarActivity
-                                 implements ItemImageFragment.OnPaletteGeneratedListener {
+                                 implements ItemImageFragment.OnPaletteGeneratedListener,
+                                            ItemDataFragment.OpenItemFullScreenListener{
 
     private static final String TAG_IMAGE_FRAGMENT = "image_fragment";
     private static final String TAG_DATA_FRAGMENT = "data_fragment";
@@ -47,4 +53,17 @@ public class ItemDetailActivity  extends ActionBarActivity
             itemDataFragment.updatePalette(palette);
     }
 
+    @Override
+    public void openItemFullScreen(Item item) {
+        View sharedView = findViewById(R.id.detailItemImage);
+        String transitionName = getString(R.string.image_transition_name);
+
+        ActivityOptionsCompat options =
+                ActivityOptionsCompat.makeSceneTransitionAnimation(
+                        this,  sharedView, transitionName);
+
+        Intent intent = new Intent(this, ItemFullScreenActivity.class);
+        intent.putExtra("item", item);
+        ActivityCompat.startActivity(this, intent, options.toBundle());
+    }
 }

@@ -15,14 +15,4 @@ tools:context=".ItemDetailActivity">
         android:layout_weight="0.5"
         android:layout_width="0dp"
         android:layout_height="match_parent" />
-<!--<fragment android:name="com.xurxo.lollipopnewfeatures.fragments.ItemImageFragment"
-    android:id="@+id/list"
-    android:layout_weight="0.5"
-    android:layout_width="0dp"
-    android:layout_height="match_parent" />
-<fragment android:name="com.xurxo.lollipopnewfeatures.fragments.ItemDataFragment"
-    android:id="@+id/viewer"
-    android:layout_weight="0.5"
-    android:layout_width="0dp"
-    android:layout_height="match_parent"  />-->
 </LinearLayout>

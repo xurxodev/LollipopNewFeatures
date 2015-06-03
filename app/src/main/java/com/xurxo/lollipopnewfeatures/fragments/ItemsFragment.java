@@ -1,10 +1,8 @@
 package com.xurxo.lollipopnewfeatures.fragments;
 
 
-import android.content.Intent;
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.xurxo.lollipopnewfeatures.R;
-import com.xurxo.lollipopnewfeatures.activities.ItemDetailActivity;
 import com.xurxo.lollipopnewfeatures.adapters.ItemsAdapter;
 import com.xurxo.lollipopnewfeatures.models.Item;
 
@@ -21,6 +18,8 @@ public class ItemsFragment extends Fragment {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
+
+    private OnItemClickListener onItemClickListener;
 
     private Item[] items;
 
@@ -44,18 +43,10 @@ public class ItemsFragment extends Fragment {
         ((ItemsAdapter) adapter).setOnItemClickListener(new ItemsAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
-                Item item = items[position];
-
-                View sharedView = view.findViewById(R.id.itemImage);
-                String transitionName = getString(R.string.image_transition_name);
-
-                ActivityOptionsCompat options =
-                        ActivityOptionsCompat.makeSceneTransitionAnimation(
-                                getActivity(),  sharedView, transitionName);
-
-                Intent intent = new Intent(getActivity(), ItemDetailActivity.class);
-                intent.putExtra("item", item);
-                ActivityCompat.startActivity(getActivity(), intent, options.toBundle());
+                if (onItemClickListener != null){
+                    Item item = items[position];
+                    onItemClickListener.onItemClick(view,item);
+                }
             }
         });
 
@@ -82,5 +73,18 @@ public class ItemsFragment extends Fragment {
                   new Item("Xurxo","You understand something new when you're able to explain it to someone",commonPath + "10")};
 
         return items;
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+
+        if (activity instanceof OnItemClickListener) {
+            onItemClickListener = (OnItemClickListener) activity;
+        }
+    }
+
+    public static interface OnItemClickListener {
+        public void onItemClick(View view,Item item);
     }
 }
