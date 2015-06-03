@@ -6,7 +6,7 @@ Sample application using new features in Lollipop:
 * Extract colors from bitmap with Palette
 * Float Action Button
 
-![](http://2.bp.blogspot.com/-IRPHBkjL1Xg/VWo0xG1418I/AAAAAAAAFwc/9Qg-LQb2f2o/s1600/Lollipop_FloatActionButton.gif)
+![](http://2.bp.blogspot.com/-IRPHBkjL1Xg/VWo0xG1418I/AAAAAAAAFwc/9Qg-LQb2f2o/s320/Lollipop_FloatActionButton.gif)
 
 Blog posts with explications
 ---------------------------
