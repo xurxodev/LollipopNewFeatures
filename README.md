@@ -4,8 +4,9 @@ Sample application using new features in Lollipop:
 * Handle onClick in RecyclerView
 * Shared Elements Transitions
 * Extract colors from bitmap with Palette
+* Float Action Button
 
-![](http://4.bp.blogspot.com/-bfhFmr1b6Lk/VWGJtJKEtMI/AAAAAAAADB0/FLocOoKDBE4/s320/Lollipop_Palette.gif)
+![](http://2.bp.blogspot.com/-IRPHBkjL1Xg/VWo0xG1418I/AAAAAAAAFwc/9Qg-LQb2f2o/s1600/Lollipop_FloatActionButton.gif)
 
 Blog posts with explications
 ---------------------------
@@ -13,6 +14,8 @@ Blog posts with explications
 * [Lollipop new features: manejando el click en los elementos del RecyclerView](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-manejando-el-click-en-los-elementos-del-recyclerview.html)
 * [Lollipop new features: transiciones de elementos compartidos](http://xurxodeveloper.blogspot.com.es/2015/05/lollipop-new-features-transiciones-de-elementos-compartidos.html)
 * [Lollipop new features: extrayendo colores de una imagen con Palette](http://xurxodeveloper.blogspot.com/2015/05/lollipop-new-features-extrayendo-colores-de-una-imagen-con-palette.html)
+* [Lollipop new features: Floating Action Button](http://xurxodeveloper.blogspot.com/2015/06/lollipop-new-features-floating-action-button.html)
+
 
 License
 -------
